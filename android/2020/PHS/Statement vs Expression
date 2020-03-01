@@ -1,0 +1,18 @@
+
+
+## Statement vs Expression in Kotlin
+
+
+    expression은 프로그래밍 언어가 다른 값을 산출하기 위해 해석하고 계산하는 하나 이상의 명시 적 값, 상수, 변수, 연산자 및 함수의 조합입니다.
+    expression은 값을 반환하는 코드의 모든 부분입니다.
+    Kotlin에서 모든 함수는 적어도 Unit를 반환합니다.
+    Kotlin은 if, when and try에서 값을 반환 하는 것을 허용하기 때문에 expressions입니다.
+
+	- 변수 선언은 expression이 아닙니다 (val a = 10)
+	- 변수 또는 property 할당은 Kotlin의 expression이 아닙니다 (a = 10)
+	- Local class declaration은 expression이 아닙니다. (class A {})
+    위에 예는 expressions이 아니고 모두 statements 입니다.
+
+    statements은 수행 할 작업을 나타내는 명령형 프로그래밍 언어의 가장 작은 독립 실행형 요소입니다.
+    Kotlin에서는 종종 한 줄의 코드이지만 세미콜론을 사용하는 경우 한 줄에 여러 statements을 쓸 수도 있고 여러 줄의 statements을 사용할 수도 있습니다.
+
