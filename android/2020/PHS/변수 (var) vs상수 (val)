@@ -1,6 +1,6 @@
 
 
-## 변수(var) vs 상수(val) in Kotlin
+##  변수(var) vs 상수(val) in Kotlin
 
 
     변수는 데이터의 보존과 관리를 하는것이 주목적이고,
